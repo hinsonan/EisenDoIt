@@ -1,13 +1,14 @@
 $(document).ready(function main(){
     'use strict'
-    var input;
+    
+    //puts the input in the corect box
     $("#btnOne").click(function(){
         //grab user input
         var usrInput = $("#task").val();
         var p = "<p class='deleteBoxOne'>" + usrInput +"</p>";
-        input = p;
+        
         //put user input in the correct box
-        $(p).insertAfter("#checkOne");
+        $(p).appendTo(".sortOne");
         
     });
     
@@ -15,9 +16,9 @@ $(document).ready(function main(){
         //grab user input
         var usrInput = $("#task").val();
         var p = "<p class='deleteBoxTwo'>" + usrInput +"</p>";
-        input = p;
+        
         //put user input in the correct box
-        $(p).insertAfter("#checkTwo");
+        $(p).appendTo(".sortTwo");
         
     });
     
@@ -25,9 +26,9 @@ $(document).ready(function main(){
         //grab user input
         var usrInput = $("#task").val();
         var p = "<p class='deleteBoxThree'>" + usrInput +"</p>";
-        input = p;
+        
         //put user input in the correct box
-        $(p).insertAfter("#checkThree");
+        $(p).appendTo(".sortThree");
         
     });
     
@@ -35,13 +36,13 @@ $(document).ready(function main(){
         //grab user input
         var usrInput = $("#task").val();
         var p = "<p class='deleteBoxFour'>" + usrInput +"</p>";
-        input = p;
+       
         //put user input in the correct box
-        $(p).insertAfter("#checkFour");
+        $(p).appendTo(".sortFour");
         
     });
     
-    
+    //deletes the last element
     $("#checkOne").on('click', function() {
         $('.deleteBoxOne').last().remove();
         
@@ -62,15 +63,14 @@ $(document).ready(function main(){
         
     });
     
+    //makes the items sortable
+    $( ".sortable" ).sortable();
+    $( ".sortable" ).disableSelection();
+    
    
    
   
-    /*
-   $("#complete").on('mouseleave', '.col-md-6', function () {
-    $(this).find(":button").hide();
-}).on('click', ':button', function() {
-    $(this).parent().remove();
-});*/
+   
     
     
 });
