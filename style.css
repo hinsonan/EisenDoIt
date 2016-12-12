@@ -19,6 +19,28 @@ p{
 h1, h3{
     text-align: center;
 }
+.btncontainer{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#btnOne{
+    background-color: #ED5E2E;
+    font-size: 2em;
+}
+#btnTwo{
+    background-color: #E8FF00;
+    font-size: 2em;
+}
+#btnThree{
+    background-color: #0FA064;
+    font-size: 2em;
+}
+#btnFour{
+    background-color: #50E038;
+    font-size: 2em;
+}
 .containerOne{
     background-color: #ED5E2E;
     padding: 1px;
