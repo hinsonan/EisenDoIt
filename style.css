@@ -1,0 +1,49 @@
+html, body{
+    padding:0px;
+    margin:0px;
+    height:100%;    
+}
+
+p{    
+    padding:5px;
+    font-size:1.5em;
+    border:1px solid grey;
+    background-color: ghostwhite;
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    
+}
+h1, h3{
+    text-align: center;
+}
+.containerOne{
+    background-color: #ED5E2E;
+    padding: 1px;
+    border-radius: 5px;
+}
+.containerTwo{
+    background-color: #E8FF00;
+    padding: 1px;
+    border-radius: 5px;
+}
+.containerThree{
+    background-color: #0FA064;
+    padding: 1px;
+    border-radius: 5px;
+}
+.containerFour{
+    background-color:#50E038;
+    padding: 1px;
+    border-radius: 5px;
+}
+.rowOne{
+    margin-top: 5%;
+    
+}
+.rowTwo{
+    margin-top: 5%;
+}
+
