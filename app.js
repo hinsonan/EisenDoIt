@@ -64,7 +64,9 @@ $(document).ready(function main(){
     });
     
     //makes the items sortable
-    $( ".sortable" ).sortable();
+    $( ".sortable" ).sortable({
+        connectWith: ".connectedSortable"
+    });
     $( ".sortable" ).disableSelection();
     
    

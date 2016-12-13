@@ -20,9 +20,11 @@ h1, h3{
     text-align: center;
 }
 .btncontainer{
-    width: 15%;
+    margin-top: 2%;
+    width: 10%;
     margin-left: auto;
     margin-right: auto;
+    word-spacing: 1em;
     
 }
 #btnOne{
@@ -34,10 +36,12 @@ h1, h3{
     font-size: 2em;
 }
 #btnThree{
+    margin-top: 3%;
     background-color: #0FA064;
     font-size: 2em;
 }
 #btnFour{
+     margin-top: 3%;
     background-color: #50E038;
     font-size: 2em;
 }
